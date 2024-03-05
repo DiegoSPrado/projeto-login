@@ -33,11 +33,13 @@ section {
     background-color: white;
     border-radius: 20px;
     overflow: hidden;
+
+    transition: width .4s, heigth .4s;
 }
 
 div#foto{
     display: block;
-    height: 250px;
+    height: 200px;
     background: #5f2c82 url(../imagens/login_img_pqn.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
@@ -49,27 +51,3 @@ div#formulario {
 }
 
 
-#imail {
-    background-color: rgb(203, 225, 233);
-    padding: 11px;
-    border-radius: 10px;
-
-}
-
-#isenha{
-    background-color: rgb(203, 225, 233);
-    padding: 11px;
-    border-radius: 10px; 
-}
-
-.entrada {
-    background-color: #5f2c82;
-    margin-top: 4px;
-    border-radius: 10px;
-    padding: 1px 1px 1px 5px;
-}
-
-span {
-    color: white;
-    
-}
