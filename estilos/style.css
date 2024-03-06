@@ -28,12 +28,12 @@ section {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 250px;
+    width: 260px;
     height: 500px;
     background-color: white;
     border-radius: 20px;
     overflow: hidden;
-
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
     transition: width .4s, heigth .4s;
 }
 
@@ -62,12 +62,54 @@ div#formulario > p {
 
 div.entrada {
     background-color: #5f2c82;
+    width: 100%;
+    height: 40px;
     margin-bottom: 5px;
     border-radius: 5px;
     
 }
 
-.material-symbols-outlined {
+div.entrada label {
+    display: none;
+}
+
+
+#sub {
+    display: block;
+    background-color: #49a09d;
+    width: 100%;
+    height: 40px;
+    font-size: 1em;
     color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #277471;
+}
+
+#sub:hover {
+    background-color: #277471;
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+form a {
+    display: block;
+    width: 99.2%;
+    height: 40px;
+    background-color: #84c4c1;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 0px;
     padding-top: 5px;
+    border: 2px solid #277471;
+    border-radius: 5px;
+    color: #185838;
+}
+
+form a:hover {
+    text-decoration: underline;
+    background-color: #277471;
+    color: #84c4c1;
+    transition: 0.2s;
 }
