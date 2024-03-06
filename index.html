@@ -19,19 +19,22 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça o login para acessar a sua conta</p>
                 <form action="login.php" method="post" autocomplete="on">
-                    <p class="entrada">
-                        
-                        <label for="imail"><span class="material-symbols-outlined">account_circle</span></label>
-                        <input type="email" name="mail" id="imail" required placeholder="usuário ou email" minlength="10" autocomplete="on" size="22">
-                    </p>
-                    <p class="entrada">
-                        <label for="isenha"><span class="material-symbols-outlined">
-                            password
-                            </span></label>
-                            <input type="password" name="senha" id="isenha" required placeholder="senha" size="22">
-                    </p>
+                    
+                    <div class="entrada">
+                      <span class="material-symbols-outlined">account_circle</span>
+                          <input type="email" name="mail" id="imail" required placeholder="usuário ou email" minlength="10" autocomplete="email" size="22">
+                          <label for="imail">Email</label>
+                  </div>
+                <div class="entrada">
+                    <span class="material-symbols-outlined">password</span>
+                            <input type="password" name="senha" id="isenha" required placeholder="senha" size="22" autocomplete="current-password" minlength="8" maxlength="20">
+                            <label for="isenha">Senha</label>
+                        </div>
                     <p>
                         <input type="submit" value="Entrar">
+                        <a href="#">Esqueci a Senha
+                           <span class="material-symbols-outlined">mail</span> 
+                        </a>
                     </p>
                 </form>
             </div>
